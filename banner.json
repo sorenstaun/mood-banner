@@ -1,5 +1,18 @@
-{
-    "name": "John",
-    "age": 30,
-    "car": null
-}
+[
+    {
+      "type": "warning",
+      "start": "21 Mar 2024 12:00:00 GMT",
+      "end": "22 Mar 2024 12:00:00 GMT",
+      "text": "This is a text directly from the json file",
+      "title": "Warning",
+      "button": "OKAY"
+    },
+    {
+      "type": "error",
+      "start": "20 Mar 2024 12:00:00 GMT",
+      "end": "20 Mar 2024 12:00:00 GMT",
+      "text": "Test from March 20",
+      "title": "blargh",
+      "button": "Not Okay"
+    }  
+  ]
