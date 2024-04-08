@@ -1,5 +1,5 @@
 Banner for MooD solutions
-#########################
+----
 
 - Create an XHTML block on your screen
 - Copy banner.html to HTML section
