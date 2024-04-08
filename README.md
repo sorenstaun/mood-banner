@@ -6,5 +6,4 @@ Banner for MooD solutions
 - Copy the banner.css to the CSS section
 - Create a banner.json file in your Active Publisher root (see example provided in this repository)
 
-.. image:: example.png
-  :alt: Banner example
+![MooD Banner example](https://github.com/sorenstaun/mood-banner/example.png)
