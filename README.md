@@ -10,7 +10,7 @@ for releases or performance issues on your network etc.
       "type": "warning",
       "start": "2 Apr 2024 12:00:00 GMT", //Banner is only shown between this date
       "end": "31 Dec 2024 12:00:00 GMT",  //and this date
-      "text": "This is a text directly from the json file. You should really see <a href='https://google.com' target='_new'>Google</a>!",
+      "text": "This is a text directly from the json file - try <a href='https://google.com' target='_new'>Google</a>!",
       "title": "Test warning banner",
       "button": "Close"
      }
