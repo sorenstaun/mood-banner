@@ -1,47 +1,30 @@
-body {
-	margin: 0;
-	padding: 0;
-}
-
-
-/*
-overflow: hidden;
-width: 100%;
-text-align: center;
-position: fixed;
-top: 0px;
-left: 0px;
-font: 20px/40px arial,
-sans-serif;
-display:none;
--webkit-box-shadow: 3px 3px 5px #888;
--moz-box-shadow: 3px 3px 5px #888;
-box-shadow: 3px 3px 5px #888;
+/* Banner CSS
+** Version 1.0, by SSB April 2024
 */
 
 .mood-banner {
 	font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
 	font-size: 120%;
 	background-color: #888;
-	height: 56px;
+	height: 50px;
 	color: #122;
-	padding-top: 20px;
+	padding-top: 15px;
 	text-align: center;
 	vertical-align: center;
-	position: static;
+	position: fixed;
 	width: 100%;
 	z-index: 10;
-	-webkit-box-shadow: 3px 3px 5px #888;
-	-moz-box-shadow: 3px 3px 5px #888;
-	box-shadow: 3px 3px 5px #888;
+	-webkit-box-shadow: 3px 3px 5px #666;
+	-moz-box-shadow: 3px 3px 5px #666;
+	box-shadow: 3px 3px 5px #666;
 }
 
 .mood-banner button {
-	background-color: #222;
+	background-color: #fff;
 	border-radius: 4px;
 	border-style: none;
 	box-sizing: border-box;
-	color: #fff;
+	color: #222;
 	cursor: pointer;
 	display: inline-block;
 	font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
@@ -69,8 +52,8 @@ box-shadow: 3px 3px 5px #888;
 }
 
 .mood-banner button:hover {
-	background: #fff;
-	color: #222;
+	background: #ccc;
+	color: #333;
 }
 
 .hidden {
