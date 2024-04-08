@@ -1,18 +1,42 @@
 [
     {
       "type": "warning",
-      "start": "21 Mar 2024 12:00:00 GMT",
-      "end": "22 Mar 2024 12:00:00 GMT",
-      "text": "This is a text directly from the json file",
-      "title": "Warning",
-      "button": "OKAY"
+      "start": "2 Apr 2024 12:00:00 GMT",
+      "end": "31 Dec 2024 12:00:00 GMT",
+      "text": "This is a text directly from the json file. You should really see <a href='https://google.com' target='_new'>Google</a>!",
+      "title": "Test warning banner",
+      "button": "Close"
     },
     {
       "type": "error",
-      "start": "20 Mar 2024 12:00:00 GMT",
-      "end": "20 Mar 2024 12:00:00 GMT",
+      "start": "4 Apr 2024 12:00:00 GMT",
+      "end": "31 Dec 2024 12:00:00 GMT",
       "text": "Test from March 20",
-      "title": "blargh",
-      "button": "Not Okay"
+      "text": "This is a text directly from the json file. You should really see <a href='https://google.com' target='_new'>Google</a>!",
+      "button": "Close"
+    },
+    {
+      "type": "alert",
+      "start": "2 Apr 2024 12:00:00 GMT",
+      "end": "31 Dec 2024 12:00:00 GMT",
+      "text": "This is a text directly from the json file. You should really see <a href='https://google.com' target='_new'>Google</a>!",
+      "title": "Test alert banner",
+      "button": "Close"
+    },
+    {
+      "type": "information",
+      "start": "2 Apr 2024 12:00:00 GMT",
+      "end": "31 Dec 2024 12:00:00 GMT",
+      "text": "This is a text directly from the json file. You should really see <a href='https://google.com' target='_new'>Google</a>!",
+      "title": "Test information banner",
+      "button": "Close"
+    },
+    {
+      "type": "error",
+      "start": "4 Apr 2024 12:00:00 GMT",
+      "end": "5 Apr 2024 12:00:00 GMT",
+      "text": "Test from March 20",
+      "title": "Undefined banner type defaults to this colour.",
+      "button": "Close"
     }  
   ]
