@@ -102,9 +102,7 @@
 
 	function add_banner() {
 		if ($("body div.mood-banner").length == 0) {
-			$("body").children().wrapAll("<div class=\"top div\"></div>");
-			$("body").prepend("<div class=\"mood-banner hidden\"> By clicking \"OK\", you agree to the storing of cookies on your device to " +
-
+			$("body").append("<div class=\"mood-banner hidden\"> By clicking \"OK\", you agree to the storing of cookies on your device to " +
 				"enhance site navigation, analyze site usage, and improve marketing.<button>Accept</button></div>");
 		}
 	}
